@@ -1,0 +1,10 @@
+.navbar li a.active::after,
+.navbar li a:hover::after {
+    content: "";
+    width: 10%;
+    height: 1px;
+    background-color: #088178;
+    position: absolute;
+    bottom: -2px;
+    left: 10px;
+}
